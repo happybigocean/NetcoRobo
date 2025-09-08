@@ -1,0 +1,32 @@
+{
+  "name": "agno",
+  "version": "1.0.0",
+  "description": "Agnostic Migrations and Seeders for Node.js (NPM &amp; NPX support)",
+  "main": "./src/index.js",
+  "bin": {
+    "argo": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChoqueCastroLD/agno.git"
+  },
+  "keywords": [
+    "argo",
+    "agnostic",
+    "migrations",
+    "seeders"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChoqueCastroLD/agno/issues"
+  },
+  "homepage": "https://github.com/ChoqueCastroLD/agno#readme",
+  "dependencies": {
+    "cli-progress": "^3.6.0",
+    "prompts": "^2.3.1"
+  }
+}
